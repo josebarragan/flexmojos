@@ -46,25 +46,35 @@
 
     <distributionManagement>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>riality</id>
+            <name>Riality</name>
+            <url>http://maven.codeoscopic.com/content/repositories/riality</url>
         </repository>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>riality</id>
+            <name>Riality Snapshots</name>
+            <url>http://maven.codeoscopic.com/content/repositories/riality-snaps</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
-        <repository>
-            <id>rso</id>
+		<repository>
+			<id>rso</id>
             <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+		</repository>
+        <repository>
+            <id>codeoscopic</id>
+            <url>http://maven.codeoscopic.com/content/groups/flex-dev</url>
         </repository>
     </repositories>
     <pluginRepositories>
-        <pluginRepository>
-            <id>rso</id>
+		<pluginRepository>
+			<id>rso</id>
             <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+		</pluginRepository>
+        <pluginRepository>
+            <id>codeoscopic</id>
+            <url>http://maven.codeoscopic.com/content/groups/flex-dev</url>
         </pluginRepository>
     </pluginRepositories>
 
@@ -394,9 +404,9 @@
     </issueManagement>
 
     <scm>
-        <connection>scm:git:https://chrisdutz@github.com/chrisdutz/flexmojos.git</connection>
-        <developerConnection>scm:git:https://chrisdutz@github.com/chrisdutz/flexmojos.git</developerConnection>
-        <url>http://github.com/chrisdutz/flexmojos</url>
+        <connection>scm:git:https://pepebarragan@github.com/pepebarragan/flexmojos.git</connection>
+        <developerConnection>scm:git:https://pepebarragan@github.com/pepebarragan/flexmojos.git</developerConnection>
+        <url>http://github.com/pepebarragan/flexmojos</url>
       <tag>flexmojos-6.0.0</tag>
   </scm>
 
@@ -598,7 +608,7 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>2.5</version>
                 <configuration>
-                    <targetJdk>1.5</targetJdk>
+                    <targetJdk>1.6</targetJdk>
                 </configuration>
             </plugin>
             <plugin>
@@ -614,7 +624,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jxr-plugin</artifactId>
-                <version>2.1</version>
+                <version>2.3</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -713,7 +723,7 @@
                 <version>1.5</version>
             </dependency>
             <dependency>
-                <groupId>plexus</groupId>
+                <groupId>org.codehaus.plexus</groupId>
                 <artifactId>plexus-velocity</artifactId>
                 <version>1.1.8</version>
             </dependency>
