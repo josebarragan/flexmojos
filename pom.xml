@@ -453,6 +453,14 @@
                         <version>2.9</version>
                     </plugin>
                     <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.4</version>
+                        <configuration>
+                            <passphrase>espVGwLCD2h7TG</passphrase>
+                        </configuration>
+                    </plugin>
+                    <plugin>
                         <groupId>com.mycila.maven-license-plugin</groupId>
                         <artifactId>maven-license-plugin</artifactId>
                         <version>1.8.0</version>
