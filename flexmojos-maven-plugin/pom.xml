@@ -354,7 +354,6 @@
                                     <goal>tattletale-dependencies</goal>
                                 </goals>
                                 <configuration>
-                                    <includeRtJar>true</includeRtJar>
                                     <profiles>
                                         <profile>java6</profile>
                                     </profiles>
@@ -404,9 +403,9 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <serverId>ossrh</serverId>
+                            <serverId>riality</serverId>
                             <repositoryUrl>
-                                http://repository.sonatype.org/service/local/repositories/maven-sites/content-compressed
+                                http://maven.codeoscopic.com/content/repositories/riality
                             </repositoryUrl>
                             <file>target/${project.artifactId}-${project.version}-site.jar</file>
                         </configuration>

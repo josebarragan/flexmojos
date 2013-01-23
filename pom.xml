@@ -407,7 +407,7 @@
         <connection>scm:git:https://pepebarragan@github.com/pepebarragan/flexmojos.git</connection>
         <developerConnection>scm:git:https://pepebarragan@github.com/pepebarragan/flexmojos.git</developerConnection>
         <url>http://github.com/pepebarragan/flexmojos</url>
-      <tag>flexmojos-6.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <mailingLists>
