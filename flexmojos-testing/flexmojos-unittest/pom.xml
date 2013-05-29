@@ -41,7 +41,7 @@
                 <configuration>
                     <!-- dita is bugged, why it doesn't surprises me? -->
                     <ditaSkip>true</ditaSkip>
-                    <storepass/>
+                    <storepass />
                 </configuration>
                 <dependencies>
                     <dependency>
