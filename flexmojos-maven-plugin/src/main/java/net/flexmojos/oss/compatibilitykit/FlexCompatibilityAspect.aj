@@ -45,7 +45,7 @@ public aspect FlexCompatibilityAspect
         else
         {
             mojo.getLog().debug(
-                                 "Skiping method " + signature.getName() + ".\n" + "Min version: " + minVersion
+                                 "Skipping method " + signature.getName() + ".\n" + "Min version: " + minVersion
                                      + " Max version: " + maxVersion + " Current version: " + mojo.getCompilerVersion() );
             return null;
         }
